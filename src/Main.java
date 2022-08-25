@@ -55,7 +55,35 @@ public class Main {
         if (( deliveryDistance >= 60 ) && ( deliveryDistance <=100))
         { deliveryTime = 3;
             System.out.println ( " Время доставки составляет" + deliveryTime + " дней") ;}
+
+        // задание 5
+        int MonthNomber = 3;
+        switch ( MonthNomber ) {
+            case 12:
+            case 1:
+            case 2:
+                System.out.println (" Зимний месяц");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println (" Весенний месяц");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println (" Летний месяц");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println (" Осенний месяц");
+                break;
+            default:
+                System.out.println (" Нет такого месяца");
+        }
+        }
         }
 
 
-    }
+
