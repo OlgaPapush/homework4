@@ -27,10 +27,18 @@ public class Main {
                     break;
                     default:
                         System.out.println ( " Установите  облегченную версию по ссылке") ;
-
-
-
                 }
+
+                // задание 3
+        int year = 2020;
+                if (( year % 4 == 0) && year % 100 != 0) {
+                    System.out.println ( year + " год является високосным " ) ;
+                }
+        if (( year % 4 == 0) && (year % 100 != 0) && (year % 400 == 0)) {
+            System.out.println ( year + " год является високосным " ) ;
+        } else {
+            System.out.println ( year + " год  не является високосным " ) ; }
         }
+
 
     }
