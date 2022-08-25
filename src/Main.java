@@ -38,6 +38,23 @@ public class Main {
             System.out.println ( year + " год является високосным " ) ;
         } else {
             System.out.println ( year + " год  не является високосным " ) ; }
+
+        // задание 4
+
+        int deliveryDistance = 95;
+        int deliveryTime;
+
+        if ( deliveryDistance <= 20 )
+        {deliveryTime = 1;
+                System.out.println ( " Время доставки составляет" + deliveryTime + " дней") ;}
+
+        if (( deliveryDistance >= 20) && (deliveryDistance <=60 ))
+        {deliveryTime = 2;
+            System.out.println ( " Время доставки составляет" + deliveryTime + " дней") ; }
+
+        if (( deliveryDistance >= 60 ) && ( deliveryDistance <=100))
+        { deliveryTime = 3;
+            System.out.println ( " Время доставки составляет" + deliveryTime + " дней") ;}
         }
 
 
